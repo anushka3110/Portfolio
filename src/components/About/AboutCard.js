@@ -10,12 +10,11 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Anushka Singh</span>
             from <span className="purple"> Kanpur, Uttar Pradesh.</span>
-            <br />
-            I am currently .
+            
             <br />
             I am a 4th-year B.Tech student at PSIT Kanpur, specializing in Computer Science and Engineering. I have a strong foundation in programming, algorithms, and web development, with a keen interest in leveraging technology for innovative solutions. Passionate about continuous learning and problem-solving, I thrive in collaborative environments and am eager to contribute to impactful projects.
             <br />
-            <br />
+            
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
@@ -23,7 +22,7 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Reading Books
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
@@ -33,7 +32,7 @@ function AboutCard() {
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Anushka</footer>
         </blockquote>
       </Card.Body>
     </Card>
