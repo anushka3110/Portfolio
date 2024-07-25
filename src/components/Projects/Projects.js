@@ -97,6 +97,16 @@ function Projects() {
               ghLink="https://github.com/anushka3110/calculator"
               />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={calculator}
+              isBlog={false}
+              title="Flowers"
+              description="An animation of flowers using HTML,CSS and Javascript."
+              ghLink="https://github.com/anushka3110/Flowers"
+              direct link="https://anushka3110.github.io/Flowers/"
+              />
+          </Col>
 
       </Container>
     </Container>
