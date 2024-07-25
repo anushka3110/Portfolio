@@ -8,6 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import calculator from "../../Assets/Projects/calculator.jpg";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import flowers1 from "../../Assets/Projects/flowers1.png";
 
 function Projects() {
   return (
@@ -88,6 +89,7 @@ function Projects() {
             />
           </Col>
         </Row> */}
+        <Row>
          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={calculator}
@@ -99,7 +101,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={calculator}
+              imgPath={flowers1}
               isBlog={false}
               title="Flowers"
               description="An animation of flowers using HTML,CSS and Javascript."
@@ -107,7 +109,7 @@ function Projects() {
               direct link="https://anushka3110.github.io/Flowers/"
               />
           </Col>
-
+          </Row>
       </Container>
     </Container>
   );
