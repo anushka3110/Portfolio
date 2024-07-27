@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
-import {
+import{
   DiJavascript1,
   DiReact,
   DiNodejs,
@@ -9,7 +9,8 @@ import {
   DiPython,
   DiJava,
   DiGit,
-  DiMysql
+  DiMysql,
+  
 } from "react-icons/di";
 
 function Techstack() {
